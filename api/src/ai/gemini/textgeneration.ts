@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { ApolloError } from "apollo-server";
+import 'dotenv/config';
 
 
 const apiKey = process.env.GEMINI_API_KEY;
