@@ -1,0 +1,52 @@
+.resume-upload-container {
+  display: flex;
+
+  min-height: 40vh;
+  background: #f7f9fa;
+}
+
+.resume-upload-card {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.resume-upload-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.resume-upload-desc {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.resume-upload-label {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.resume-upload-input {
+  display: none;
+}
+
+.resume-upload-btn {
+  display: inline-block;
+  background: #4f8cff;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.resume-upload-btn:hover {
+  background: #2563eb;
+}
