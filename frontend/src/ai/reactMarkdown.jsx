@@ -24,11 +24,11 @@ const Code = ({ inline, className, children, ...props }) => {
        
        
       </div>
-      <pre className="overflow-x-auto p-4 rounded-lg bg-gray-950 border border-gray-700 shadow-lg hover:shadow-xl transition-shadow duration-300 w-full">
+      <span className="overflow-x-auto p-4 rounded-lg bg-gray-950 border border-gray-700 shadow-lg hover:shadow-xl transition-shadow duration-300 w-full">
         <code className={`${className} block whitespace-pre min-w-fit`} {...props}>
           {children}
         </code>
-      </pre>
+      </span>
     </div>
   );
 };
